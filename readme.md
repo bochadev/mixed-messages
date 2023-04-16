@@ -1,19 +1,27 @@
-# Build a random message generator program
+# Message Generator
 
-## Plan
+This is a single web page that allows the user to generate random messages. The project contains a message generator library, an index page that links to a main javascript file that contains the logic for capturing the message type and a button for processing it.
 
-I will create a project directory Mixed Messages and I will use git to initialize the version control.
+## Description
 
-After that, I will create a single web page that allows the user to generate random messages. To do this
-I will program a message generator library, an index page that links to a main javascript file that contains the logic for capturing the message type and a button for processing it.
+The program allows the user to generate random messages from three different message types:
 
-I will use chatGTP to generate 10 messages of each type.
+- Astrological messages
+- Inspirational messages
+- Joke messages
 
-## Requirements
+The user can select the type of message that the program will generate.
 
-- The program allows the user to generate random messages from three different types of messages
-  - Astrological messages
-  - Inspirational messages
-  - Joke messages
-- Each time the user runs the program, it must generate a new random message.
-- User can select the message type that the program will generate
+Use chatGTP to generate 10 messages of each type.
+
+## Installation
+
+Deploy on web server (local)
+
+## Usage
+
+Open index.html and you should select message type to generate and press button "Generate Random Message".
+
+## Credits
+
+Codecademy challenge. Bocha developer.
