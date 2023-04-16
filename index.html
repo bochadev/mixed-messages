@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Message Generator</title>
+    <script type="module" src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <fieldset class="main-wrapper">
+        <div class="wrapper">
+            <input type="radio" id="astrology" name="messageType" value="Astrology" checked />
+            <label for="astrology">Astrology</label>
+            <input type="radio" id="inspirational" name="messageType" value="Inspirational" />
+            <label for="inspirational">Inspirational</label>
+            <input type="radio" id="joke" name="messageType" value="Joke" />
+            <label for="joke">Joke</label>
+        </div>
+        <div class="wrapper">
+            <button id="messageButton" class="message-button" type="button">Generate a Random Message</button>
+        </div>
+        <div class="wrapper">
+            <span id="messageText" class="output-message"></span>
+        </div>
+    </fieldset>
+
+</body>
+</html>

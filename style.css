@@ -1,0 +1,23 @@
+.main-wrapper{
+    padding: 1em;
+    height: 10em;
+    background-color: gainsboro;
+}
+
+.wrapper{
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.output-message{
+    font-size: 2em;
+    color:green;
+}
+
+.message-button{
+    background-color: blue;
+    color: #fff;
+    padding: .5em;
+    text-align: center;
+}
+
